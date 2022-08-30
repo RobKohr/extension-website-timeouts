@@ -1,0 +1,28 @@
+/* Type your CSS code here. */
+
+#hide-overlay {
+    padding: 2em;
+    font-size: 45px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: green;
+    display: none;
+    z-index: 100000;
+    color: red;
+    text-align: center;
+}
+
+#show-page-button {
+    display: none;
+    font-size: 25px;
+}
+
+#show-page-countdown {
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 80px;
+}
